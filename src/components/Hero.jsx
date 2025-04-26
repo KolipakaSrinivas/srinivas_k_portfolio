@@ -49,9 +49,9 @@ function Hero() {
       </FadeInOnScroll>
       <FadeInOnScroll direction="up" delay={1.3}>
         {/* <button  style={{ "font-family": "Space Mono" }} className="border-2 px-5 p-2 rounded-md border-green-500"></button> */}
-        <a
+        <a 
           className="group relative  inline-block bg-green-400 text-sm font-medium text-green-500  rounded-md"
-          href="#"
+          href="/srinivas_02.pdf" download
         >
           <span className="absolute inset-0  border-green-300   rounded-md" />
           <span

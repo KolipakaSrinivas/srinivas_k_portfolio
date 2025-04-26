@@ -34,7 +34,7 @@ function IMDBCLONE() {
             </p>
             <div className="flex items-end gap-2">
               <a
-                href="https://github.com/KolipakaSrinivas/URL-Shortener.git"
+                href="https://github.com/KolipakaSrinivas/IMDB_Next_JS"
                 target="_blank"
                 className="text-green-500 fill-current"
               >
@@ -56,7 +56,7 @@ function IMDBCLONE() {
                 </svg>
               </a>
               <a
-                href="https://url-shortener-wbz6.onrender.com/"
+                href="https://imdbmoves.netlify.app/"
                 target="_blank"
                 className="text-green-500 fill-current"
               >
