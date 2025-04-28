@@ -1,7 +1,7 @@
 import FadeInOnScroll from "./FadeInOnScroll";
 import React from "react";
 
-function Certificates() {
+function CertificatesOne() {
   const [activeTab, setActiveTab] = React.useState(0);
   const certifications = [
     {
@@ -88,7 +88,7 @@ function Certificates() {
           <span class="flex-grow  block border-t mx-5 border-gray-500" />
         </h1>
         <div class="md:flex justify-start gap-1 md:gap-5">
-          <ul class="flex gap-3  flex-wrap pt-[2rem] items-end md:items-stretch md:flex-col  w-full justify-around md:justify-start space-y-4 text-sm font-medium text-gray-500 dark:text-gray-400 mb-4 md:mb-0 md:w-[13rem]">
+          <ul class="flex flex-col gap-3  flex-wrap pt-[2rem]  md:items-stretch md:flex-col  w-full justify-around md:justify-start space-y-4 text-sm font-medium text-gray-500 dark:text-gray-400 mb-4 md:mb-0 md:w-[13rem]">
             {certifications.map((certification, index) =>
               <li>
                 <button
@@ -102,13 +102,13 @@ function Certificates() {
               </li>
             )}
           </ul>
-          <div class="p-6 bg-slate-50 text-medium text-gray-500 dark:text-gray-400 dark:bg-[#101828] rounded-lg w-full">
+          <div class="p-3 md:p-5 bg-slate-50 text-medium text-gray-500 dark:text-gray-400 dark:bg-[#101828] rounded-lg w-full">
             {certifications.map((certification, index) =>
               <div
                 className={`${activeTab !== index &&
                   "hidden"} text-gray-500  list-outside  transition-colors  delay-100 ease-in-out`}
               >
-                <div className="flex items-center gap-2 text-xl  font-bold text-black dark:text-slate-100">
+                <div className="flex flex-col md:flex-row items-center gap-2 text-xl  font-bold text-black dark:text-slate-100">
                   <h1 className=" ">{certification.title} </h1>
                   <a
                     href={certification.Credential}
@@ -152,4 +152,4 @@ function Certificates() {
   );
 }
 
-export default Certificates;
+export default CertificatesOne;

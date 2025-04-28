@@ -4,7 +4,10 @@ import FadeInOnScroll from "./FadeInOnScroll";
 
 function Hero() {
   return (
-    <section className="flex mt-[4rem] lg:mt-[5rem] flex-col gap-7 pt-5 dark:bg-[#101828]" id="home">
+    <section
+      className="h-[100vh] md:h-full justify-center flex  lg:mt-[5rem] flex-col gap-7 pt-5 dark:bg-[#101828]"
+      id="home"
+    >
       <FadeInOnScroll direction="up" delay={1}>
         <h4 className="text-black  text-xl dark:text-slate-300 font-SpaceMono">
           Hi
@@ -27,7 +30,7 @@ function Hero() {
             />
           </span>{" "}
           and{" "}
-          <span className="inline-block min-w-[80px] md:min-w-[130px] text-left text-green-500 ">
+          <span className="inline-block min-w-[190px] md:min-w-[130px] text-left text-green-500 ">
             <TypeAnimation
               sequence={["javascript", 3000, "typescript", 5000]}
               repeat={Infinity}
@@ -49,9 +52,10 @@ function Hero() {
       </FadeInOnScroll>
       <FadeInOnScroll direction="up" delay={1.3}>
         {/* <button  style={{ "font-family": "Space Mono" }} className="border-2 px-5 p-2 rounded-md border-green-500"></button> */}
-        <a 
+        <a
           className="group relative  inline-block bg-green-400 text-sm font-medium text-green-500  rounded-md"
-          href="/srinivas_02.pdf" download
+          href="/srinivas_02.pdf"
+          download
         >
           <span className="absolute inset-0  border-green-300   rounded-md" />
           <span
