@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import UrlShortener from "./UrlShortener";
 import NotesApp from "./NotesApp";
 import IMDBCLONE from "./IMDBCLONE";
@@ -32,7 +33,7 @@ function Work() {
             Other Noteworthy Projects
           </h1>
           <p className="text-green-500 text-sm text-center underline ">
-            view the archive
+            <Link to={"/archive"}>view the archive</Link>
           </p>
         </FadeInOnScroll>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[1.5rem] pt-[2rem]">

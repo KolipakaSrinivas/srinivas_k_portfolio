@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 import FadeInOnScroll from "./FadeInOnScroll";
 import ToggleButton from "./ToggleButton";
@@ -39,8 +40,8 @@ function NavBar({ toggleDarkMode }) {
       <div className="flex justify-between items-center w-full">
         <FadeInOnScroll direction="down" delay={0}>
           {/* Logo */}
-          <a
-            href="#"
+          <Link
+            to={"/"}
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <svg
@@ -52,7 +53,7 @@ function NavBar({ toggleDarkMode }) {
             >
               <path d="m7.375 16.781 1.25-1.562L4.601 12l4.024-3.219-1.25-1.562-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562-1.25 1.562L19.399 12l-4.024 3.219 1.25 1.562 5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003-4 18-1.953-.434 4-18z" />
             </svg>
-          </a>
+          </Link>
         </FadeInOnScroll>
         <div className="md:hidden ml-auto mr-5">
           <FadeInOnScroll direction="down" delay={0.1}>
@@ -105,8 +106,10 @@ function NavBar({ toggleDarkMode }) {
         <ul className="hidden mt-5 md:flex gap-[2rem] text-black dark:text-white">
           <FadeInOnScroll direction="down" delay={0.1}>
             <li className="">
-              <span className="text-green-600">01.</span>
-              <a href="/">Home</a>
+              <Link to={"/"}>
+                <span className="text-green-600">01.</span>
+                <a href="/">Home</a>
+              </Link>
             </li>
           </FadeInOnScroll>
           <FadeInOnScroll direction="down" delay={0.2}>
@@ -140,9 +143,9 @@ function NavBar({ toggleDarkMode }) {
           <FadeInOnScroll direction="down" delay={0.1}>
             <li className="text-xl dark:text-slate-200">
               <span className="text-green-600">01.</span>
-              <a href="#" onClick={toggleMenu}>
+              <Link to={"/"} onClick={toggleMenu}>
                 Home
-              </a>
+              </Link>
             </li>
           </FadeInOnScroll>
           <FadeInOnScroll direction="down" delay={0.2}>

@@ -1,16 +1,14 @@
 import "./App.css";
 import { useEffect, useState } from "react";
+import { Routes, Route } from "react-router-dom";
+
 
 //comonents
 import Navbar from "./components/NavBar";
 import LeftBar from "./components/LeftBar";
 import RightBar from "./components/RightBar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import GetInTouch from "./components/GetInTouch";
-import Work from "./components/Work";
-// import Certificates from "./components/Certificates";
-import CertificatesOne from "./components/CertificatesOne"
+import Home from "./pages/Home";
+import ArchivePage from "./pages/ArchivePage"
 
 function App() {
   const [isDark, setIsDark] = useState(false);
@@ -49,12 +47,10 @@ function App() {
           <LeftBar toggleDarkMode={toggleDarkMode} />
         </div>
         <div className="col-span-6 row-span-4 flex flex-col gap-14 md:gap-28">
-          <Hero />
-          <About />
-          {/* <Certificates /> */}
-          <CertificatesOne />
-          <Work />
-          <GetInTouch />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/archive" element={<ArchivePage />} />
+          </Routes>
         </div>
         <div className="row-span-4 col-start-8">
           <RightBar />

@@ -158,6 +158,24 @@ const data = [
     ]
   },
   {
+    title: "Pic Some",
+    description:
+      "Users can add images to a cart or mark them as favorites, State management is handled efficiently using Context API",
+    techStack: "React.js,  CSS, custom hooks, context api, Vite",
+    img: "./PicSome.png",
+    liveLink: "https://lovely-kelpie-65eaa6.netlify.app/",
+    githubLink: "https://github.com/KolipakaSrinivas/Gallery_store",
+    info: [
+      "Users can add images to a cart or mark them as favorites, with data stored in localStorage",
+      // "Images are fetched from an external source using the URL https://raw.githubusercontent.com/bobziroll/scrimba-react-bootcamp-images/master/images.json",
+      // "The app displays the total cost of items in the cart for easy purchase management",
+      "Developed using React.js, CSS, and JavaScript for a dynamic and responsive design",
+      "State management is handled efficiently using Context API, ensuring a smooth user experience",
+      // "Custom hooks are utilized for optimized data fetching and handling",
+      // "Fully responsive design, providing consistent performance on both desktop and mobile devices"
+    ]
+  },
+  {
     title: "My Bhakri",
     description:
       "React and Redux for state management, Tracks the number of cakes and ice creams.",
