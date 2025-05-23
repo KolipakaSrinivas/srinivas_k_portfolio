@@ -42,7 +42,7 @@ function App() {
   return (
     <div className="h-screen dark:bg-[#101828] bg-slate-50 scroll-smooth">
       <Navbar toggleDarkMode={toggleDarkMode} />
-      <div className="md:grid px-5 grid-cols-8 grid-rows-4 dark:bg-[#101828]  bg-slate-50">
+      <div className="md:grid px-5 mg:px-1 grid-cols-8 grid-rows-4 dark:bg-[#101828]  bg-slate-50">
         <div className="row-span-4">
           <LeftBar toggleDarkMode={toggleDarkMode} />
         </div>

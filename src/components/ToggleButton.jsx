@@ -5,7 +5,7 @@ function ToggleButton({ toggleDarkMode, display }) {
         "hidden"} `}
     >
       <button
-        className="h-12 w-12 rounded-lg p-2 hover:bg-gray-100 dark:hover:bg-gray-700"
+        className="h-10 w-10 rounded-lg p-2 bg-gray-100 border-gray-500 dark:bg-gray-800 border-[1px]"
         onClick={toggleDarkMode}
       >
         {/* <svg

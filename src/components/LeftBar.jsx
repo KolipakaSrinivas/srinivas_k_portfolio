@@ -5,9 +5,9 @@ import FadeInOnScroll from "./FadeInOnScroll";
 function LeftBar({ toggleDarkMode }) {
   return (
     <FadeInOnScroll direction="kk" delay={1.7}>
-      <ul className="fixed hidden md:flex bottom-0 left-14 right-auto  flex-col items-center gap-6">
+      <ul className="fixed hidden md:flex bottom-0 left-12 right-auto  flex-col items-center gap-6">
         <ToggleButton toggleDarkMode={toggleDarkMode} />
-        <li className="w-6 dark:text-slate-300  dark:hover:text-green-400 fill-current hover:animate-bounce hover:text-green-400 animate-once animate-ease-out">
+        <li className="w-5 dark:text-slate-300  dark:hover:text-green-400 fill-current hover:animate-bounce hover:text-green-400 animate-once animate-ease-out">
           <a
             href="https://github.com/KolipakaSrinivas"
             target="_blank"
@@ -30,7 +30,7 @@ function LeftBar({ toggleDarkMode }) {
             </svg>
           </a>
         </li>
-        <li className="w-6 dark:text-slate-300 dark:hover:text-green-400 hover:animate-bounce hover:text-green-400 animate-once animate-ease-out">
+        <li className="w-5 dark:text-slate-300 dark:hover:text-green-400 hover:animate-bounce hover:text-green-400 animate-once animate-ease-out">
           <a href="https://www.linkedin.com/in/456-srinivas-k/" target="_blank">
             <svg
               className=""
@@ -51,7 +51,7 @@ function LeftBar({ toggleDarkMode }) {
             </svg>
           </a>
         </li>
-        <li className="w-7 fill-current text-black hover:animate-bounce hover:text-green-400 animate-once animate-ease-out">
+        <li className="w-6 fill-current text-black hover:animate-bounce hover:text-green-400 animate-once animate-ease-out">
           <a
             href="https://www.freecodecamp.org/fcc34eb82f3-2c56-43f1-b06e-3c70927f3df3"
             target="_blank"
@@ -75,7 +75,7 @@ function LeftBar({ toggleDarkMode }) {
             </svg>
           </a>
         </li>
-        <li className="w-7 hover:animate-bounce hover:text-green-600 animate-once animate-ease-out">
+        <li className="w-6 hover:animate-bounce hover:text-green-600 animate-once animate-ease-out">
           <a href="#">
             <svg
               className="fill-current hover:text-green-400 dark:text-slate-300 dark:hover:text-green-400"
