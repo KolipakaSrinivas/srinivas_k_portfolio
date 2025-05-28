@@ -68,37 +68,37 @@ function NavBar({ toggleDarkMode }) {
           >
             {isMenuOpen
               ? <svg
-                  // enable-background="new 0 0 48 48"
-                  className="bg-slate-50 dark:bg-[#101828] fill-current dark:text-gray-100 "
-                  width={25}
-                  height={25}
-                  id="Layer_1"
-                  version="1.1"
-                  viewBox="0 0 48 48"
-                  xml:space="preserve"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <g id="Layer_3">
-                    <polygon points="47.998,4.247 43.758,0.002 24.001,19.758 4.245,0.002 0.004,4.247 19.758,24.001 0.004,43.755    4.25,47.995 24.001,28.244 43.752,47.995 47.998,43.755 28.244,24.001  " />{" "}
-                  </g>
-                </svg>
+                // enable-background="new 0 0 48 48"
+                className="bg-slate-50 dark:bg-[#101828] fill-current dark:text-gray-100 "
+                width={25}
+                height={25}
+                id="Layer_1"
+                version="1.1"
+                viewBox="0 0 48 48"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g id="Layer_3">
+                  <polygon points="47.998,4.247 43.758,0.002 24.001,19.758 4.245,0.002 0.004,4.247 19.758,24.001 0.004,43.755    4.25,47.995 24.001,28.244 43.752,47.995 47.998,43.755 28.244,24.001  " />{" "}
+                </g>
+              </svg>
               : <svg
-                  width={25}
-                  height={25}
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 17 14"
-                >
-                  <path
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M1 1h15M1 7h15M1 13h15"
-                  />
-                </svg>}
+                width={25}
+                height={25}
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
+              </svg>}
           </button>
         </FadeInOnScroll>
 
@@ -108,26 +108,28 @@ function NavBar({ toggleDarkMode }) {
             <li className="">
               <Link to={"/"}>
                 <span className="text-green-600">01.</span>
-                <a href="/">Home</a>
+                <span className="font-bold relative  cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-amber-600 before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-amber-600 after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
+                  Home
+                </span>
               </Link>
             </li>
           </FadeInOnScroll>
           <FadeInOnScroll direction="down" delay={0.2}>
             <li>
               <span className="text-green-600">02.</span>
-              <a href="#about">About</a>
+              <span className="font-bold relative  cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-amber-600 before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-amber-600 after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">About</span>
             </li>
           </FadeInOnScroll>
           <FadeInOnScroll direction="down" delay={0.3}>
             <li>
               <span className="text-green-600">04.</span>
-              <a href="#work">Works</a>
+              <span className="font-bold relative  cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-amber-600 before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-amber-600 after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">Works</span>
             </li>
           </FadeInOnScroll>
           <FadeInOnScroll direction="down" delay={0.4}>
             <li>
               <span className="text-green-600">04.</span>
-              <a href="#contact">Contact</a>
+              <span className="font-bold relative  cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-amber-600 before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-amber-600 after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">Contact</span>
             </li>
           </FadeInOnScroll>
         </ul>
