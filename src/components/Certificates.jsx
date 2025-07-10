@@ -82,13 +82,13 @@ function Certificates() {
   return (
     <FadeInOnScroll direction="up" delay={0.3}>
       <section>
-        <h1 className="mb-[1rem] md:mb-[2rem] font-SpaceMono  text-gray-600 font-extrabold  text-2xl dark:text-slate-300 flex flex-row flex-nowrap items-center">
-          <span className="text-green-500">02. </span>
+        <h1 className="mb-[1rem] md:mb-[2rem] font-SpaceMono  justify-center  text-gray-600 font-extrabold  text-2xl dark:text-slate-300 flex flex-row flex-nowrap items-center">
+          {/* <span className="text-green-500">02. </span> */}
           certifications & internship
-          <span class="flex-grow  block border-t mx-5 border-gray-500" />
+          {/* <span class="flex-grow  block border-t mx-5 border-gray-500" /> */}
         </h1>
         <div class="md:flex justify-start gap-1 md:gap-5">
-          <ul class="flex flex-col gap-3  flex-wrap pt-[2rem]  md:items-stretch md:flex-col  w-full justify-around md:justify-start space-y-4 text-sm font-medium text-gray-500 dark:text-gray-400 mb-4 md:mb-0 md:w-[13rem]">
+          <ul class="flex flex-col gap-3 font-SpaceMono  flex-wrap pt-[2rem]  md:items-stretch md:flex-col  w-full justify-around md:justify-start space-y-4 text-sm font-medium text-gray-500 dark:text-gray-400 mb-4 md:mb-0 md:w-[13rem]">
             {certifications.map((certification, index) =>
               <li>
                 <button
@@ -108,7 +108,7 @@ function Certificates() {
                 className={`${activeTab !== index &&
                   "hidden"} text-gray-500  list-outside  transition-colors  delay-100 ease-in-out`}
               >
-                <div className="flex flex-col md:flex-row items-center gap-2 text-xl  font-bold text-black dark:text-slate-100">
+                <div className="flex flex-col font-SpaceMono md:flex-row items-center gap-2 text-xl  font-bold text-black dark:text-slate-100">
                   <h1 className=" ">{certification.title} </h1>
                   <a
                     href={certification.Credential}
@@ -124,10 +124,10 @@ function Certificates() {
                     </svg>
                   </a>{" "}
                 </div>
-                <h1 className="font-bold text-sm  text-gray-400 font-Space-Mono">
+                <h1 className="font-bold text-sm font-DMSans text-gray-400 font-Space-Mono">
                   {certification.provider} issued {certification.date}
                 </h1>
-                <p className="pb-5 text-gray-500 md:w-[70%] lg:w-[90%]">
+                <p className="pb-5 text-gray-500 md:w-[70%] lg:w-[90%] font-DMSans">
                   {certification.subheading}
                 </p>
                 <ul

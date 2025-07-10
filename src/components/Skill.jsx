@@ -12,6 +12,7 @@ import mongodb from "../assets/icons/mongodb-svgrepo-com.svg";
 import api from "../assets/icons/api.png";
 import linux from "../assets/icons/linux-svgrepo-com.svg";
 import tailwindcss from "../assets/icons/tailwindcss-icon-svgrepo-com.svg";
+import wordpress_icon from "../assets/icons/wordpress-icon-1.svg"
 
 function Skill() {
   return (
@@ -114,6 +115,10 @@ function Skill() {
         </dt>
         <dd>
           <ul>
+             <li className="me-1  after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+              <img src={wordpress_icon} alt="JS" className="w-5 h-5" />
+              <span className="pl-1 pr-2">wordpress</span>
+            </li>
             <li className="me-1  after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
               <img src={reactjs} alt="JS" className="w-5 h-5" />
               <span className="pl-1 pr-2">React js</span>

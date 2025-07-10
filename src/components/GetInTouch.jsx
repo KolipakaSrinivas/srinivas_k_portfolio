@@ -10,7 +10,7 @@ function GetInTouch() {
         id="contact"
       >
         <h1 className="mb-2 font-SpaceMono  text-gray-600 font-extrabold  text-2xl dark:text-gray-300 ">
-          <span className="text-green-500">02. </span>
+          <span className="text-green-500">04. </span>
           What’s Next?
           <span className="w-[2px] ml-[2px] h-28 bg-black z-10" />
         </h1>
