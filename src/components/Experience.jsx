@@ -9,18 +9,18 @@ function Experience() {
           Experience
           <span class="flex-grow  block border-t mx-5 border-gray-500" />
         </h1>
-        <div className="text-white">
+        <div className="text-black dark:text-white">
           <h1 className="font-bold font-SpaceMono text-xl">
             Web Developer – Dsquare Marketing
           </h1>
-          <h3 className="font-DMSans text-gray-200">Jan 2023 – Present</h3>
+          <h3 className="font-DMSans text-black dark:text-gray-200">Jan 2023 – Present</h3>
           <div className="mt-5">
             <p className="font-DMSans leading-5 md:w-[75%]">
               At Dsquare Marketing, I worked as a Web Developer focusing on
               building and maintaining WordPress websites. My responsibilities
               included:
             </p>
-            <ul className="list-disc pl-5 md:pl-10 pt-2 font-DMSans text-gray-200 marker:text-green-600">
+            <ul className="list-disc pl-5 md:pl-10 pt-2 font-DMSans text-black dark:text-gray-200 marker:text-green-600">
               <li>
                 Developing responsive and dynamic websites using WordPress and
                 Elementor.
