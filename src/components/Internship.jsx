@@ -1,19 +1,19 @@
 import FadeInOnScroll from "./FadeInOnScroll";
 
-function Experience() {
+function Internship() {
   return (
     <FadeInOnScroll direction="up" delay={0.3}>
       <section id="experience">
-        <h1 className="mb-[1rem] md:mb-[2rem] font-SpaceMono  text-gray-600 font-extrabold  text-2xl dark:text-slate-300 flex flex-row flex-nowrap items-center">
+        {/* <h1 className="mb-[1rem] md:mb-[2rem] font-SpaceMono  text-gray-600 font-extrabold  text-2xl dark:text-slate-300 flex flex-row flex-nowrap items-center">
           <span className="text-green-500">02. </span>
           Experience
           <span class="flex-grow  block border-t mx-5 border-gray-500" />
-        </h1>
+        </h1> */}
         <div className="text-black dark:text-white">
           <h1 className="font-bold font-SpaceMono text-xl">
-            Web Developer – Dsquare Marketing
+            Web Development Intern (WordPress)
           </h1>
-          <h3 className="font-DMSans text-black dark:text-gray-200">Jan 2023 – Present</h3>
+          <h3 className="font-DMSans text-black dark:text-gray-200">Apr 2023 – Oct 2023</h3>
           <div className="mt-5">
             <p className="font-DMSans leading-5 md:w-[75%]">
               At Dsquare Marketing, I worked as a Web Developer focusing on
@@ -46,4 +46,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+export default Internship;
