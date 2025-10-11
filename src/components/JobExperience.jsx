@@ -20,26 +20,26 @@ function JobExperience() {
           <div className="mt-5">
             <p className="font-DMSans leading-5 md:w-[75%]">
               At Dsquare Marketing, I worked as a Web Developer focusing on
-              building and maintaining WordPress websites. My responsibilities
-              included:
+              building and maintaining websites. My responsibilities included:
             </p>
             <ul className="list-disc pl-5 md:pl-10 pt-2 font-DMSans text-black dark:text-gray-200 marker:text-green-600">
               <li>
-                Developing responsive and dynamic websites using WordPress and
-                Elementor.
-              </li>
-              <li>Customizing themes and plugins to match client needs.</li>
-              <li>
-                Maintaining websites by performing regular updates, backups, and
-                security checks.
+                Developed responsive WordPress websites using Elementor and
+                JavaScript.
               </li>
               <li>
-                Ensuring optimal performance and SEO best practices across all
-                projects.
+                Collaborated with the co-founder (developer) on freelance and
+                internal projects using React for UI enhancements and dashboard
+                components.
               </li>
               <li>
-                Providing ongoing support and implementing new features as
-                required.
+                Handled website hosting, maintenance, and updates, working on
+                both front-end and back-end improvements based on project
+                requirements.
+              </li>
+              <li>
+                Optimized site performance by 20% and ensured SEO best
+                practices.
               </li>
             </ul>
           </div>
@@ -47,7 +47,7 @@ function JobExperience() {
         <div className="text-black dark:text-white mt-5">
           <Link to={"/"}>
             <h1 className="font-bold font-SpaceMono text-blue-400 underline text-xl">
-              Web Development Intern (WordPress)
+              Web Development Intern
             </h1>
           </Link>
           <h3 className="font-DMSans text-black dark:text-gray-200">
@@ -55,20 +55,23 @@ function JobExperience() {
           </h3>
           <div className="mt-5">
             <p className="font-DMSans leading-5 md:w-[75%]">
-              At Dsquare Marketing, I worked as a Web Developer focusing on
-              building and maintaining WordPress websites. My responsibilities
-              included:
+              At Dsquare Marketing, I worked as a Web Developer Intern focusing
+              on building and maintaining WordPress websites. My
+              responsibilities included:
             </p>
             <ul className="list-disc pl-5 md:pl-10 pt-2 font-DMSans text-black dark:text-gray-200 marker:text-green-600">
               <li>
-                Built cross-device WordPress websites and collaborated with
-                senior developers.{" "}
+                Customized Elementor designs and integrated plugins for client
+                projects.
               </li>
               <li>
-                Customized Elementor designs and integrated plugins for added
-                functionality.
+                Supported development of internal tools using React and REST API
+                integration.
               </li>
-              <li>Assisted with debugging and resolving WordPress issues.</li>
+              <li>
+                Assisted with debugging, responsive design, and layout
+                improvements.
+              </li>
             </ul>
           </div>
         </div>
